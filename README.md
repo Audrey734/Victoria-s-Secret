@@ -1,21 +1,26 @@
 # Audrey Doisneau Personal Website
 
-Static personal homepage for Audrey Doisneau, designed as a polished business profile for a lingerie designer and boutique owner.
+Static personal homepage for Audrey Doisneau, designed for GitHub Pages.
 
-## Files
+## Hero Photo
 
-- `index.html` - main page
-- `styles.css` - responsive styling
-- `assets/audrey-hero-horizontal.png` - horizontal homepage portrait background
-- `assets/hero-background.png` - alternate boutique background image
-- `assets/atelier-background.png` - secondary professional background image
-
-## GitHub Pages
-
-Upload these files to a GitHub repository, then enable Pages from the repository settings. Use the `main` branch and root folder as the publish source.
-
-To replace the generated hero with another horizontal personal photo, save the preferred image as:
+The homepage uses Audrey's personal photo as a full-screen horizontal hero
+background:
 
 ```text
-assets/audrey-hero-horizontal.png
+assets/audrey-hero.jpg
 ```
+
+This image has already been prepared as a 16:9 landscape JPG, with the portrait
+placed on the right side and clean space for the name and profile text on the
+left.
+
+## Publish On GitHub Pages
+
+1. Create a new GitHub repository.
+2. Upload `index.html`, `styles.css`, `README.md`, `.nojekyll`, and the `assets` folder.
+3. In the repository, open **Settings -> Pages**.
+4. Set **Source** to `Deploy from a branch`.
+5. Select the `main` branch and `/root`, then save.
+
+GitHub will provide the public website URL after deployment.
